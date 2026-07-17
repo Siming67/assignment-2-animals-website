@@ -19,7 +19,7 @@
   <body class="Dog">
     <div class="container">
       <header>
-        <a href="page2.html">
+        <a href="index.html">
           <img
             src=":https://encrypted-tbn0.gstatic.com/images?q=tbn:
             ANd9GcQGirbltVgQeAwZAzcTmOaA8KvgPAC3rtTLNA&usqp=CAU"
@@ -33,7 +33,7 @@
               <a href="index.html">Home</a>
             </li>
             <li class="navli">
-              <a href="subpages/dog.html">Dog</a>
+              <a href="page2">Dog</a>
             </li>
             <li class="navli">
               <a href="subpages/monkey.html">Monkey</a>

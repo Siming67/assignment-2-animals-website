@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Monkey</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ZX_huuwmXchmV29qvd3JXp316REDcY_BbQ&usqp=CAU"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="Monkey">
+    <div class="container">
+      <header>
+        <a href="index.html">
+          <img
+            src=":https://encrypted-tbn0.gstatic.com/images?q=tbn:
+            ANd9GcQGirbltVgQeAwZAzcTmOaA8KvgPAC3rtTLNA&usqp=CAU"
+            alt="logo"
+            class="logo"
+          />
+        </a>
+        <nav>
+          <ul>
+            <li class="navli">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="navli">
+              <a href="page2">Dog</a>
+            </li>
+            <li class="navli">
+              <a href="page3">Monkey</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <h1>Dog</h1>
+    <img
+      src="https://i.natgeofe.com/n/82fddbcc-4cbb-4373-bf72-dbc30068be60/drill-monkey-01.jpg"
+      alt="animals"
+      title="The Monkey"
+      class="photo"
+    />
+    <a class="photo" href="https://www.nationalgeographic.com/animals/article/animal-primate-drill-conservation-biology-mandrill" title="photo"
+      >photo</a
+    >
+    <p>
+      Monkey is a common name that may refer to most mammals of the infraorder
+       Simiiformes, also known as simians. Traditionally, all animals in the
+        group now known as simians are counted as monkeys except the apes.
+        Thus monkeys, in that sense, constitute an incomplete paraphyletic 
+        grouping; alternatively, if apes (Hominoidea) are included, monkeys 
+        and simians are synonyms.
+      <br />
+      Many monkey species are tree-dwelling (arboreal), although there are 
+      species that live primarily on the ground, such as baboons. Most species 
+      are mainly active during the day (diurnal). Monkeys are generally considered 
+      to be intelligent, especially the Old World monkeys.
+      <br />
+    </p>
+
+    <!---Here is the div container that I classified as "parallax"--->
+    <div class="parallax">Animals</div>
+
+    <div style="height: 500px; background-color: teal; font-size: 36px">
+      This is a website with various facts and findings about 3 featured species
+      within the animal kingdom!
+    </div>
+
+    <div class="box">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11092.35917121706!2d-122.41382754059703!3d37.801860180915284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c40000001%3A0xde85b80121f2dd44!2sCoit%20Tower!5e0!3m2!1sen!2sus!4v1626680883742!5m2!1sen!2sus"
+        width="1440"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <footer>
+      <button title="This is a cool button!">
+        <a href="https://malcolm-portfolio-site.glitch.me">Portfolio Site</a>
+      </button>
+    </footer>
+  </body>
+</html>

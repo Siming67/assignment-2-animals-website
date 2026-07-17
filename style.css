@@ -1,0 +1,159 @@
+/*effects the entire header*/
+header {
+  background: #67fa67;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-family: HK Grotesk;
+  background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1800&h=900&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2020%2F04%2F08%2Fdisney-pixar-finding-nemo-ZOOMDISNEY0420.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-opacity: 0.5;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  height: 80px;
+  padding: 10px 10px;
+  opacity: 0;
+  animation-name: example;
+  animation-duration: 5s;
+}
+
+@keyframes example {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+nav {
+  float: right;
+  padding-right: 500px;
+  
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 100px;
+  padding-top: 40px;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*These are the images and property: value pairs that I used for the parallax effect*/
+.parallax {
+  /* The image used */
+  background-image: url("https://www.freepnglogos.com/uploads/animals-png/animals-jungle-theme-day-camp-shac-15.png"),
+    url("https://i.pinimg.com/originals/73/10/f6/7310f636199a16a396a6e82b50ef6f1e.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: teal;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 10px;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover {
+  color: #000000;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+}
+
+body.dog {
+  font-family: HK Grotesk;
+  background-color: rgb(0, 128, 128);
+}
+
+h1 {
+  text-align: center;
+}
+
+h1:hover {
+  color: orange;
+}
+
+img {
+  opacity: 0.5;
+  height: 500px;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+p {
+  background-color: #55d6aa;
+  height:500px;
+  font-size:36px;
+}
+.photo {
+  border: solid 2px;
+}
+tr:first-child {
+  border-style: solid;
+}
+
+.pic1 {
+  border-radius: 20px;
+}
+
+.pic2 {
+  width: 100%;
+}
+
+.box {
+  border-style: solid;
+  border-width: 50px;
+  border-color: purple;
+  
+}

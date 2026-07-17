@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Home</title>
+    <title>Dog</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
@@ -16,13 +16,13 @@
       rel="stylesheet"
     />
   </head>
-  <body class="home">
+  <body class="Dog">
     <div class="container">
       <header>
         <a href="index.html">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:
-                ANd9GcQGirbltVgQeAwZAzcTmOaA8KvgPAC3rtTLNA&usqp=CAU"
+            src=":https://encrypted-tbn0.gstatic.com/images?q=tbn:
+            ANd9GcQGirbltVgQeAwZAzcTmOaA8KvgPAC3rtTLNA&usqp=CAU"
             alt="logo"
             class="logo"
           />
@@ -42,27 +42,30 @@
         </nav>
       </header>
     </div>
-    <h1>Home Page</h1>
+    <h1>Dog Page</h1>
     <img
-      src="https://factanimal.com/wp-content/uploads/2019/01/mantis-shrimp-facts.jpg"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Rusty.jpg/250px-Rusty.jpg"
       alt="animals"
-      title="The Mantis Shrimp"
+      title="The Dog"
       class="photo"
     />
-    <a class="photo" href="https://factanimal.com/mantis-shrimp/" title="photo"
+    <a class="photo" href="https://en.wikipedia.org/wiki/Dog_crossbreed" title="photo"
       >photo</a
     >
     <p>
-      The Mantis Shrimp (or ‘Stomatopod’) is a small, aggressive marine
-      Crustacean, that inhabit tropical and subtropical waters of the Indian and
-      Pacific Oceans between Eastern Africa and Hawaii.
+      The dog (Canis familiaris or Canis lupus familiaris) is a domesticated
+      descendant of wolves. Also called the domestic dog, it was selectively
+      bred during the Late Pleistocene by hunter-gatherers.
       <br />
-      They are beautiful and vibrant in colour, but also deadly, able to club
-      prey with the force of a bullet, or spike them with their sharp claws.
+      Dogs and the modern gray wolf share a common ancestor.Dogs were the first 
+      species to be domesticated over 14,000 years ago, before the development 
+      of agriculture, though genetic studies suggest the domestication process 
+      may have begun over 25,000 years ago. 
       <br />
-      They are members of the order Stomatopoda and taxonomy group Crustacea,
-      which are hard-shelled animals, such as crabs, lobsters, crayfish, shrimp,
-      krill and more.
+      Communication in dogs includes eye gaze, facial expression, vocalization, 
+      body posture (including movements of bodies and limbs), and chemical 
+      communication (scents, pheromones, and taste). They mark their territories 
+      by urinating on them, which is more likely when entering a new environment.
     </p>
 
     <!---Here is the div container that I classified as "parallax"--->
@@ -91,4 +94,3 @@
     </footer>
   </body>
 </html>
-
